@@ -8,8 +8,7 @@
     <title>LOGIN PAGE</title>in.css
 </head>
 <body>
-    
-    <header class="text-gray-600 body-font">
+<header class="text-gray-600 body-font">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
@@ -18,14 +17,15 @@
             <span class="ml-3 text-xl">AS TECNO ZONE</span>
           </a>
           <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-            <a class="mr-5 hover:text-gray-900">Home</a>
-            <a class="mr-5 hover:text-gray-900">About</a>
+            <a href ="astecnozone.html"
+            <a class="mr-5 hover:text-gray-900">Home</a></a>
+                <a href="fyu.html"  <a class="mr-5 hover:text-gray-900">About</a></a>
             <a class="mr-5 hover:text-gray-900">Services</a>
             <a class="mr-5 hover:text-gray-900">Contact</a>
           </nav>
           <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Sign IN/Login Page
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
+              <path div  ="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </button>
         </div>
@@ -46,8 +46,9 @@
               <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
               <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
             </div>
-            <button class="text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg">Button</button>
-            <p class="text-xs text-gray-500 mt-3">Did you ever listen about ASTecnoZone?</p>
+            <a href="ASTecnoZone.html"
+            <button class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"onclick="alert('YOUR FEEDBACK HAS BEEN SUMITTED!')">SUMBIT</a></button>
+            <p class="text-xs text-gray-500 mt-3">HEY! DO YOU LIKE PIZZA OR BURGER</p>
           </div>
         </div>
       </section>
@@ -135,7 +136,7 @@
         </div>
         <div class="bg-gray-100">
           <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-            <p class="text-gray-500 text-sm text-center sm:text-left">© 2020 Tailblocks —
+            <p class="text-gray-500 text-sm text-center sm:text-left">2022 as
               <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@knyttneve</a>
             </p>
             <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
@@ -165,7 +166,6 @@
           </div>
         </div>
       </footer>
-
-
       </body>
       </html>
+
